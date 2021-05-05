@@ -1,5 +1,5 @@
 
-const socket = io('https://safe-taiga-41855.herokuapp.com/');
+const socket = io('https://glacial-fortress-00623.herokuapp.com/');
 
 socket.on('init',handleInit);
 socket.on('gameState',handleGameState);
